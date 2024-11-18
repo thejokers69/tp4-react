@@ -1,4 +1,4 @@
-// src/Exercice2/Book.jsx
+// tp1-react/src/Exercice2/Book.jsx
 import React from "react";
 
 function Book({ book }) {

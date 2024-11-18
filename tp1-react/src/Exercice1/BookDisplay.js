@@ -1,4 +1,4 @@
-// src/Exercise1/BookDisplay.js
+// tp1-react/src/Exercise1/BookDisplay.js
 import React from "react";
 
 const book = {

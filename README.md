@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# TP4-React: Gestion de Livres 📚
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description 📝
 
-## Available Scripts
+Ce projet React a été réalisé dans le cadre du TP4 de la filière 2ACI Info. L’objectif est de pratiquer la manipulation de composants React en créant une petite application qui gère des livres.
 
-In the project directory, you can run:
+**Auteur**: Mohamed Lakssir  
+**Filière**: 2ACI Info
 
-### `npm start`
+## Fonctionnalités 🔧
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Exercice 1
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Création d’un objet JavaScript représentant un livre, contenant les informations suivantes :
+  - Title (Titre)
+  - Price (Prix)
+  - Author (Auteur)
+- Affichage du livre dans un tableau HTML avec JSX.
 
-### `npm test`
+### Exercice 2
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Création d’un composant `Book` :
+  - Ce composant reçoit un livre en paramètre et l’affiche dans une ligne de tableau (`<tr>`).
+- Création d’un composant `BookList` :
+  - Ce composant reçoit un tableau de livres en paramètre.
+  - Il affiche les livres dans un tableau HTML, en utilisant le composant `Book` pour chaque ligne.
+- Affichage du composant `BookList` dans l’élément root (`index.js`).
 
-### `npm run build`
+## Arborescence du Projet 🗂
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── App.css               // Styles principaux de l'application
+├── App.js                // Composant principal gérant le routage
+├── Exercice1/            // Contient les fichiers de l'exercice 1
+│   └── BookDisplay.js    // Affiche un livre dans un tableau HTML
+├── Exercice2/            // Contient les fichiers de l'exercice 2
+│   ├── Book.jsx          // Composant qui affiche un livre dans une ligne de tableau
+│   ├── BookList.jsx      // Composant qui affiche une liste de livres dans un tableau
+│   ├── Form.jsx          // Formulaire pour ajouter un livre
+│   └── MyComponent.jsx   // Exemple d'interaction avec `useState`
+├── index.css             // Styles globaux
+├── index.js              // Point d'entrée de l'application React
+├── reportWebVitals.js    // Mesure des performances
+└── setupTests.js         // Configuration des tests unitaires
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation et Lancement 🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prérequis
 
-### `npm run eject`
+- Node.js (v16 ou supérieur)
+- npm (v7 ou supérieur)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Étapes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clonez ce dépôt :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/votre-nom-d-utilisateur/tp4-react.git
+   cd tp4-react/tp1-react
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Installez les dépendances :
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Lancez le serveur de développement :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+4. Ouvrez votre navigateur à l’adresse : [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Fonctionnement de l’Application 💻
 
-### Analyzing the Bundle Size
+### Page BookDisplay (Exercice 1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Affiche un livre avec les informations suivantes :
+  - Titre
+  - Auteur
+  - Prix
 
-### Making a Progressive Web App
+### Page BookList (Exercice 2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Affiche une liste de livres sous forme de tableau.
+- Chaque livre est affiché dans une ligne grâce au composant `Book`.
 
-### Advanced Configuration
+### Page Form
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Permet d’ajouter un nouveau livre à la liste des livres.
 
-### Deployment
+## Auteurs ✍️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Mohamed Lakssir  
+**Filière**: 2ACI Info
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

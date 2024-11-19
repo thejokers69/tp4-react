@@ -1,4 +1,4 @@
-// tp1-react/src/Exercice2/MyComponent.jsx
+// tp4-react/tp1-react/src/Exercice2/MyComponent.jsx
 import React, { useEffect, useState } from "react";
 
 function MyComponent() {

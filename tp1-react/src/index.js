@@ -1,4 +1,4 @@
-// src/index.js// src/index.js
+// /Users/thejoker/Documents/GitHub/tp4-react/tp1-react/src/index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";

@@ -1,18 +1,9 @@
-function Book({ book }) {
-    const { id = 'N/A', title = 'Java Programming', price = '30', author = 'Anonymous', publicationDate = 'Unknown' } = book || {};
-
-    return (
-        <tr>
-            <td>{id}</td>
-            <td>{title}</td>
-            <td>{price}</td>
-            <td>{author}</td>
-            <td>{publicationDate}</td>
-            <td>
-                <button>Details</button>
-            </td>
-        </tr>
-    );
+function Book({Book}){
+    return (<tr>
+        <td>{Book.title}</td>
+        <td>{Book.price}</td>
+        <td>{Book.date_publication}</td>
+        <td>{Book.author}</td>
+    </tr>)
 }
-
-export default Book;
+export default Book

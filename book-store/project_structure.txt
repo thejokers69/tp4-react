@@ -248,7 +248,6 @@
 │   │   │   │       ├── raw.js
 │   │   │   │       ├── text.js
 │   │   │   │       └── urlencoded.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -263,7 +262,6 @@
 │   │   │   ├── bson.d.ts
 │   │   │   ├── etc
 │   │   │   │   └── prepare.js
-│   │   │   ├── etc 3
 │   │   │   ├── lib
 │   │   │   │   ├── bson.bundle.js
 │   │   │   │   ├── bson.bundle.js.map
@@ -273,7 +271,6 @@
 │   │   │   │   ├── bson.mjs.map
 │   │   │   │   ├── bson.rn.cjs
 │   │   │   │   └── bson.rn.cjs.map
-│   │   │   ├── lib 3
 │   │   │   ├── package.json
 │   │   │   ├── src
 │   │   │   │   ├── binary.ts
@@ -311,22 +308,20 @@
 │   │   │   │       ├── number_utils.ts
 │   │   │   │       ├── string_utils.ts
 │   │   │   │       └── web_byte_utils.ts
-│   │   │   ├── src 3
-│   │   │   ├── vendor
-│   │   │   │   ├── base64
-│   │   │   │   │   ├── LICENSE-MIT.txt
-│   │   │   │   │   ├── README.md
-│   │   │   │   │   ├── base64.js
-│   │   │   │   │   └── package.json
-│   │   │   │   └── text-encoding
-│   │   │   │       ├── LICENSE.md
-│   │   │   │       ├── README.md
-│   │   │   │       ├── index.js
-│   │   │   │       ├── lib
-│   │   │   │       │   ├── encoding-indexes.js
-│   │   │   │       │   └── encoding.js
-│   │   │   │       └── package.json
-│   │   │   └── vendor 3
+│   │   │   └── vendor
+│   │   │       ├── base64
+│   │   │       │   ├── LICENSE-MIT.txt
+│   │   │       │   ├── README.md
+│   │   │       │   ├── base64.js
+│   │   │       │   └── package.json
+│   │   │       └── text-encoding
+│   │   │           ├── LICENSE.md
+│   │   │           ├── README.md
+│   │   │           ├── index.js
+│   │   │           ├── lib
+│   │   │           │   ├── encoding-indexes.js
+│   │   │           │   └── encoding.js
+│   │   │           └── package.json
 │   │   ├── bytes
 │   │   │   ├── History 2.md
 │   │   │   ├── History 3.md
@@ -356,10 +351,9 @@
 │   │   │   ├── index.js
 │   │   │   ├── package 2.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   ├── callBound.js
-│   │   │   │   └── index.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       ├── callBound.js
+│   │   │       └── index.js
 │   │   ├── chownr
 │   │   │   ├── LICENSE
 │   │   │   ├── README.md
@@ -464,13 +458,12 @@
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
-│   │   │   ├── src
-│   │   │   │   ├── browser.js
-│   │   │   │   ├── debug.js
-│   │   │   │   ├── index.js
-│   │   │   │   ├── inspector-log.js
-│   │   │   │   └── node.js
-│   │   │   └── src 2
+│   │   │   └── src
+│   │   │       ├── browser.js
+│   │   │       ├── debug.js
+│   │   │       ├── index.js
+│   │   │       ├── inspector-log.js
+│   │   │       └── node.js
 │   │   ├── define-data-property
 │   │   │   ├── CHANGELOG 2.md
 │   │   │   ├── CHANGELOG 3.md
@@ -492,7 +485,6 @@
 │   │   │   ├── package.json
 │   │   │   ├── test
 │   │   │   │   └── index.js
-│   │   │   ├── test 2
 │   │   │   ├── tsconfig 2.json
 │   │   │   ├── tsconfig 3.json
 │   │   │   └── tsconfig.json
@@ -521,7 +513,6 @@
 │   │   │   ├── lib
 │   │   │   │   └── browser
 │   │   │   │       └── index.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -563,7 +554,6 @@
 │   │   │   │   ├── env-options.js
 │   │   │   │   ├── main.d.ts
 │   │   │   │   └── main.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   └── package.json
 │   │   ├── ee-first
@@ -619,7 +609,6 @@
 │   │   │   ├── package.json
 │   │   │   ├── test
 │   │   │   │   └── index.js
-│   │   │   ├── test 2
 │   │   │   ├── tsconfig 2.json
 │   │   │   ├── tsconfig 3.json
 │   │   │   └── tsconfig.json
@@ -654,7 +643,6 @@
 │   │   │   ├── syntax.js
 │   │   │   ├── test
 │   │   │   │   └── index.js
-│   │   │   ├── test 2
 │   │   │   ├── tsconfig 2.json
 │   │   │   ├── tsconfig.json
 │   │   │   ├── type 2.js
@@ -712,7 +700,6 @@
 │   │   │   │   │   └── route.js
 │   │   │   │   ├── utils.js
 │   │   │   │   └── view.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   └── package.json
 │   │   ├── finalhandler
@@ -792,9 +779,8 @@
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   └── index.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       └── index.js
 │   │   ├── gauge
 │   │   │   ├── CHANGELOG.md
 │   │   │   ├── LICENSE
@@ -826,9 +812,8 @@
 │   │   │   ├── index.js
 │   │   │   ├── package 2.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   └── GetIntrinsic.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       └── GetIntrinsic.js
 │   │   ├── glob
 │   │   │   ├── LICENSE
 │   │   │   ├── README.md
@@ -847,9 +832,8 @@
 │   │   │   ├── index.js
 │   │   │   ├── package 2.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   └── index.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       └── index.js
 │   │   ├── has-property-descriptors
 │   │   │   ├── CHANGELOG 2.md
 │   │   │   ├── CHANGELOG 3.md
@@ -866,9 +850,8 @@
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   └── index.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       └── index.js
 │   │   ├── has-proto
 │   │   │   ├── CHANGELOG 2.md
 │   │   │   ├── CHANGELOG.md
@@ -884,7 +867,6 @@
 │   │   │   ├── package.json
 │   │   │   ├── test
 │   │   │   │   └── index.js
-│   │   │   ├── test 2
 │   │   │   ├── tsconfig 2.json
 │   │   │   └── tsconfig.json
 │   │   ├── has-symbols
@@ -900,13 +882,12 @@
 │   │   │   ├── package.json
 │   │   │   ├── shams 2.js
 │   │   │   ├── shams.js
-│   │   │   ├── test
-│   │   │   │   ├── index.js
-│   │   │   │   ├── shams
-│   │   │   │   │   ├── core-js.js
-│   │   │   │   │   └── get-own-property-symbols.js
-│   │   │   │   └── tests.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       ├── index.js
+│   │   │       ├── shams
+│   │   │       │   ├── core-js.js
+│   │   │       │   └── get-own-property-symbols.js
+│   │   │       └── tests.js
 │   │   ├── has-unicode
 │   │   │   ├── LICENSE
 │   │   │   ├── README.md
@@ -1001,14 +982,12 @@
 │   │   │   │   │   └── shiftjis.json
 │   │   │   │   ├── utf16.js
 │   │   │   │   └── utf7.js
-│   │   │   ├── encodings 2
 │   │   │   ├── lib
 │   │   │   │   ├── bom-handling.js
 │   │   │   │   ├── extend-node.js
 │   │   │   │   ├── index.d.ts
 │   │   │   │   ├── index.js
 │   │   │   │   └── streams.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -1046,7 +1025,6 @@
 │   │   │   ├── lib
 │   │   │   │   ├── ipaddr.js
 │   │   │   │   └── ipaddr.js.d.ts
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -1173,7 +1151,6 @@
 │   │   │   ├── src
 │   │   │   │   ├── build.js
 │   │   │   │   └── test.js
-│   │   │   ├── src 2
 │   │   │   ├── types 2.json
 │   │   │   ├── types 3.json
 │   │   │   └── types.json
@@ -1263,7 +1240,6 @@
 │   │   │   ├── README.md
 │   │   │   ├── etc
 │   │   │   │   └── prepare.js
-│   │   │   ├── etc 2
 │   │   │   ├── lib
 │   │   │   │   ├── admin.js
 │   │   │   │   ├── admin.js.map
@@ -1549,7 +1525,6 @@
 │   │   │   │   ├── utils.js.map
 │   │   │   │   ├── write_concern.js
 │   │   │   │   └── write_concern.js.map
-│   │   │   ├── lib 2
 │   │   │   ├── mongodb.d 2.ts
 │   │   │   ├── mongodb.d 3.ts
 │   │   │   ├── mongodb.d.ts
@@ -1706,7 +1681,6 @@
 │   │   │   │   ├── transactions.ts
 │   │   │   │   ├── utils.ts
 │   │   │   │   └── write_concern.ts
-│   │   │   ├── src 2
 │   │   │   ├── tsconfig 2.json
 │   │   │   ├── tsconfig 3.json
 │   │   │   └── tsconfig.json
@@ -1724,7 +1698,6 @@
 │   │   │   │   ├── redact.d.ts
 │   │   │   │   ├── redact.js
 │   │   │   │   └── redact.js.map
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -2512,14 +2485,12 @@
 │   │   │   ├── lib
 │   │   │   │   ├── index.js
 │   │   │   │   └── stringToParts.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   ├── index.js
-│   │   │   │   └── stringToParts.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       ├── index.js
+│   │   │       └── stringToParts.js
 │   │   ├── mquery
 │   │   │   ├── History 2.md
 │   │   │   ├── History 3.md
@@ -2542,7 +2513,6 @@
 │   │   │   │   ├── mquery.js
 │   │   │   │   ├── permissions.js
 │   │   │   │   └── utils.js
-│   │   │   ├── lib 2
 │   │   │   ├── node_modules
 │   │   │   │   ├── debug
 │   │   │   │   │   ├── LICENSE
@@ -2558,7 +2528,6 @@
 │   │   │   │       ├── license.md
 │   │   │   │       ├── package.json
 │   │   │   │       └── readme.md
-│   │   │   ├── node_modules 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -2589,7 +2558,6 @@
 │   │   │   │   ├── encoding.js
 │   │   │   │   ├── language.js
 │   │   │   │   └── mediaType.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -2673,7 +2641,6 @@
 │   │   │   │   ├── circular.js
 │   │   │   │   ├── fn.js
 │   │   │   │   └── inspect.js
-│   │   │   ├── example 2
 │   │   │   ├── index 2.js
 │   │   │   ├── index.js
 │   │   │   ├── package 2.json
@@ -2703,7 +2670,6 @@
 │   │   │   │   ├── toStringTag.js
 │   │   │   │   ├── undef.js
 │   │   │   │   └── values.js
-│   │   │   ├── test 2
 │   │   │   ├── test-core-js 2.js
 │   │   │   ├── test-core-js.js
 │   │   │   ├── util.inspect 2.js
@@ -2790,22 +2756,19 @@
 │   │   │   ├── README.md
 │   │   │   ├── dist
 │   │   │   │   └── qs.js
-│   │   │   ├── dist 2
 │   │   │   ├── lib
 │   │   │   │   ├── formats.js
 │   │   │   │   ├── index.js
 │   │   │   │   ├── parse.js
 │   │   │   │   ├── stringify.js
 │   │   │   │   └── utils.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   ├── empty-keys-cases.js
-│   │   │   │   ├── parse.js
-│   │   │   │   ├── stringify.js
-│   │   │   │   └── utils.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       ├── empty-keys-cases.js
+│   │   │       ├── parse.js
+│   │   │       ├── stringify.js
+│   │   │       └── utils.js
 │   │   ├── range-parser
 │   │   │   ├── HISTORY 2.md
 │   │   │   ├── HISTORY 3.md
@@ -3004,7 +2967,6 @@
 │   │   │   │       ├── license.md
 │   │   │   │       ├── package.json
 │   │   │   │       └── readme.md
-│   │   │   ├── node_modules 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -3074,9 +3036,8 @@
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
-│   │   │   ├── test
-│   │   │   │   └── index.js
-│   │   │   └── test 2
+│   │   │   └── test
+│   │   │       └── index.js
 │   │   ├── side-channel
 │   │   │   ├── CHANGELOG 2.md
 │   │   │   ├── CHANGELOG 3.md
@@ -3098,7 +3059,6 @@
 │   │   │   ├── package.json
 │   │   │   ├── test
 │   │   │   │   └── index.js
-│   │   │   ├── test 2
 │   │   │   ├── tsconfig 2.json
 │   │   │   ├── tsconfig 3.json
 │   │   │   └── tsconfig.json
@@ -3112,11 +3072,9 @@
 │   │   │   ├── es
 │   │   │   │   ├── index.js
 │   │   │   │   └── index.js.map
-│   │   │   ├── es 2
 │   │   │   ├── es5m
 │   │   │   │   ├── index.js
 │   │   │   │   └── index.js.map
-│   │   │   ├── es5m 2
 │   │   │   ├── index 2.js
 │   │   │   ├── index 3.js
 │   │   │   ├── index.d 2.ts
@@ -3130,7 +3088,6 @@
 │   │   │   │   ├── index.js.map
 │   │   │   │   ├── operations.d.ts
 │   │   │   │   └── utils.d.ts
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
@@ -3146,12 +3103,11 @@
 │   │   │   ├── sift.min.js 2.map
 │   │   │   ├── sift.min.js 3.map
 │   │   │   ├── sift.min.js.map
-│   │   │   ├── src
-│   │   │   │   ├── core.ts
-│   │   │   │   ├── index.ts
-│   │   │   │   ├── operations.ts
-│   │   │   │   └── utils.ts
-│   │   │   └── src 2
+│   │   │   └── src
+│   │   │       ├── core.ts
+│   │   │       ├── index.ts
+│   │   │       ├── operations.ts
+│   │   │       └── utils.ts
 │   │   ├── signal-exit
 │   │   │   ├── LICENSE.txt
 │   │   │   ├── README.md
@@ -3271,7 +3227,6 @@
 │   │   │   │   ├── mappingTable.json
 │   │   │   │   ├── regexes.js
 │   │   │   │   └── statusMapping.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -3351,7 +3306,6 @@
 │   │   │   ├── README.md
 │   │   │   ├── lib
 │   │   │   │   └── index.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   └── package.json
@@ -3378,7 +3332,6 @@
 │   │   │   │   ├── url-state-machine.js
 │   │   │   │   ├── urlencoded.js
 │   │   │   │   └── utils.js
-│   │   │   ├── lib 2
 │   │   │   ├── package 2.json
 │   │   │   ├── package 3.json
 │   │   │   ├── package.json
@@ -44742,6 +44695,7 @@
 │   │       └── readme.md
 │   ├── package-lock.json
 │   ├── package.json
+│   ├── project_structure.txt
 │   ├── public
 │   │   ├── favicon.ico
 │   │   ├── index.html
@@ -44755,6 +44709,7 @@
 │       ├── App.test.js
 │       ├── components
 │       │   ├── Book.jsx
+│       │   ├── BookForm.jsx
 │       │   └── BookList.jsx
 │       ├── index.css
 │       ├── index.js
@@ -44765,4 +44720,4 @@
 │           └── BookList.css
 └── project_structure.txt
 
-4947 directories, 39819 files
+4900 directories, 39821 files

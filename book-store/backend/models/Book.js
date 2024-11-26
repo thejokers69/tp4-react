@@ -1,4 +1,4 @@
-/*  TP1-MUNDIAPOLIS-NODEJS/models/Book.js */
+/*  book-store/backend/models/Book.js */
 const { type } = require("express/lib/response");
 const mongoose = require("mongoose");
 const bookSchema = new mongoose.Schema({

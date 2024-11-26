@@ -1,4 +1,4 @@
-// TP1-MUNDIAPOLIS-NODEJS/controllers/customers_controller.js
+// book-store/backend/controllers/customers_controller.js
 const customerService = require("../services/customers_services");
 
 async function getAllCustomers(req, res) {

@@ -1,4 +1,4 @@
-/*  TP1-MUNDIAPOLIS-NODEJS/models/Order.js */
+/*  book-store/backend/models/Order.js */
 const mongoose = require("mongoose");
 const customerSchema = new mongoose.Schema({
   fName: {

@@ -1,4 +1,4 @@
-/*  TP1-MUNDIAPOLIS-NODEJS/index.js */
+/*  book-store/backend/index.js */
 const express = require("express");
 const Book = require("./models/Book");
 const Customer = require("./models/Customer");

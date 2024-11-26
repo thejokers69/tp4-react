@@ -1,3 +1,4 @@
+// /Users/thejoker/Documents/GitHub/tp4-react/book-store/frontend/src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

@@ -1,4 +1,76 @@
-table,th, td{
-    border:1px solid black;
-    border-collapse: collapse;
+/* /Users/thejoker/Documents/GitHub/tp4-react/book-store/frontend/src/styles/BookList.css */
+table,
+th,
+td {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+th,
+td {
+  border: 1px sold #ddd;
+  padding: 12px;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+.table-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 90%;
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+button {
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0b7dda;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #da190b;
+}
+.loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #2196f3;
+    margin: 20px 0;
+}
+
+.error-message {
+    text-align: center;
+    font-size: 18px;
+    color: #f44336;
+    margin: 20px 0;
 }

@@ -1,4 +1,5 @@
-/*  book-store/backend/controllers/book.controllers.js */
+/*  /Users/thejoker/Documents/GitHub/tp4-react/book-store/backend/controllers/books_controller.js */
+const { response } = require("express");
 const bookService = require("../services/books_services");
 // const BookModel = require("../models/Book");
 /*const books = [
@@ -8,10 +9,10 @@ const bookService = require("../services/books_services");
 ];*/
 
 async function getAllBooks(req, res) {
-  const books = await bookService.getAllBooks;
-  res.json(books);
-
-  /*if (req.query.q) {
+  try {
+    const books = await bookService.getAllBooks();
+    res.json(books);
+    /*if (req.query.q) {
     const booksCopy = books.filter((b) =>
       b.title.toLowerCase().includes(req.query.q.toLowerCase())
     );
@@ -19,28 +20,39 @@ async function getAllBooks(req, res) {
   } else {
     res.json({ books });
   }*/
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    res.status(500).json({ error: "Failed to fetch books." });
+  }
 }
 
 async function getBookById(req, res) {
-  const books = await bookService.getBookById(req.params.id);
-  // const books = await BookModel.findOne({ _id: req.params.id });
-  // const book = books.find((b) => b.id == req.params.id);
-  if (!books) {
-    return res.status(404).send("Book not found");
+  try {
+    const books = await bookService.getBookById(req.params.id);
+    // const books = await BookModel.findOne({ _id: req.params.id });
+    // const book = books.find((b) => b.id == req.params.id);
+    if (!books) {
+      return res.status(404).json({ error: "Book not found" });
+    }
+    res.json(books);
+  } catch (error) {
+    console.log("Error fetching book by ID:", error);
   }
-  res.json(books);
 }
 
 async function addBook(req, res) {
-  const {title, author, price}= req.body;
-  if (!title || !author) {
-    return res.status(400).json({ error: "Title and author are required." });
+  const { title, author, price } = req.body;
+  if (!title || !author || price === undefined || price < 0) {
+    return res
+      .status(400)
+      .json({ error: "Title, author, and a non-negative price are required." });
   }
 
   try {
     const book = await bookService.addBook(req.body);
-    res.json(book);
+    res.status(201).json(book);
   } catch (error) {
+    console.error("Error adding book:", error);
     res.status(500).json({ error: error.message });
   }
   // const book = await BookModel.create(req.body);

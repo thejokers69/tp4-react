@@ -1,4 +1,4 @@
-/*  book-store/backend/index.js */
+// /Users/thejoker/Documents/GitHub/tp4-react/book-store/backend/index.js
 const express = require("express");
 const Book = require("./models/Book");
 const Customer = require("./models/Customer");
@@ -10,11 +10,11 @@ const customerRoute = require("./routes/customers_routes");
 const apiRouter = require("./routes/api_routes");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-
+const cors =require("cors");
 dotenv.config();
 
 const app = express();
-
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -40,6 +40,17 @@ app.use("/api", apiRouter);
 app.get("/", (req, res) => {
   res.send("My first express app");
 });
+// app.get("/api", async (req, res) => {
+//   try {
+//     const books = await Book.find();
+//     const orders = await Order.find();
+//     const customers = await Customer.find();
+//     res.json({ books, orders, customers });
+//   } catch (error) {
+//     console.error("Error fetching data:", error);
+//     res.status(500).json({ error: "Server error" });
+//   }
+// });
 
 mongoose
   .connect(process.env.MONGO_URL)
@@ -52,3 +63,14 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+
+
+exports.getAllBooks = async (req, res) => {
+  try {
+    const books = await Book.find(); // Récupère tous les livres
+    res.status(200).json(books); // Retourne un tableau
+  } catch (error) {
+    console.error("Error fetching books:", error);
+    res.status(500).json({ message: "Failed to fetch books." });
+  }
+};

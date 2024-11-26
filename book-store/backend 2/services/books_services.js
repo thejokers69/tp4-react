@@ -1,4 +1,4 @@
-/*  TP1-MUNDIAPOLIS-NODEJS/services/books_services.js */
+/*  /Users/thejoker/Documents/GitHub/tp4-react/book-store/backend/services/books_services.js */
 const BookModel = require("../models/Book");
 
 async function getAllBooks() {
@@ -11,9 +11,9 @@ async function addBook(book) {
   return await BookModel.create(book);
 }
 async function deleteBook(idB) {
-  return await BookModel.findByIdAndDelete(idb);
+  return await BookModel.findByIdAndDelete(idB);
 }
 async function updateBook(idB, books) {
-  return await BookModel.findByIdAndUpdate(idb, books);
+  return await BookModel.findByIdAndUpdate(idB, books);
 }
 module.exports = { getAllBooks, getBookById, addBook, deleteBook, updateBook };
